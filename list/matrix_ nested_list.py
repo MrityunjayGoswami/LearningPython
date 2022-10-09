@@ -1,0 +1,11 @@
+a = [[10,20,30],[40,50,60],[70,80,90]]
+print(a,"\n")
+
+for i in a:
+    print(i)
+
+print("\nmatrix form : ")
+for i in range(len(a)):
+    for j in range(len(a[i])):
+        print(a[i][j],end=' ')
+    print()

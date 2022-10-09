@@ -1,0 +1,6 @@
+s  = eval(input("enter the dictionary : "))
+print(s)
+print(type(s))
+sumofdict = sum(s.values())
+print(sumofdict)
+print(type(sumofdict))
